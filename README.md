@@ -4,9 +4,9 @@ We will use SQLAlchemy to query a data set and compare the weather patterns betw
 
 ## Results
 Below are the two summary DataFrames for June and December.
-- The mean temperature is higher in June than December by four degrees (75F vs 71F)
+- The mean temperature is higher in June than December by four degrees (75F vs 71F).
 - The standard deviation in June temperatures are smaller than December temperatures (3.75 vs 3.25), meaning the weather is more variable during the month of December.
-- The sample size in June is larger than December by 183 temperature observances (1700 vs 1517), so there is a possibility 
+- The sample size in June is larger than December by 183 temperature observances (1700 vs 1517), so there is a possibility we are missing records for a particular weather station location.
 
 ### June DataFrame Summary
 ![june_df_summary.png](https://github.com/rptseng/surfs_up/blob/main/june_df_summary.png)
